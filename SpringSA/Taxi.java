@@ -68,7 +68,8 @@ public class Taxi extends PublicTransportation{
     public void speedShift(int changeSpeed) {
         super.speedShift(changeSpeed);
     }
-
+    
+    @Override
     public void passengerBoarding(int passenger, String destination, int distance) {
         setDestination(destination);
         if (passenger>getMaxPassenger()) {
