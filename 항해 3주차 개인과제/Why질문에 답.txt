@@ -1,0 +1,17 @@
+1. 수정, 삭제 API의 request를 어떤 방식으로 사용하셨나요? (param, query, body)
+	- body로 받아오는 방식을 사용
+
+2. 어떤 상황에 어떤 방식의 request를 써야하나요?
+       - 저장에는 post
+	 조회하는데는 get
+	 업데이트나 변경에는 put, patch
+	 삭제할때는 delete
+
+3. RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
+	- REST 원리에 따라 CRUD 기능을 잘 활용하여 REST API 설계 규칙 맞게 작성을 하였습니다!
+
+4. 적절한 관심사 분리를 적용하였나요? (Controller, Repository, Service)
+	- 그렇습니다!
+
+5. API 명세서 작성 가이드라인을 검색하여 직접 작성한 명세서와 비교해보세요!
+	- 확인했습니다!
