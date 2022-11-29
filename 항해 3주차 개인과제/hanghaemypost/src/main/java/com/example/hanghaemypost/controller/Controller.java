@@ -15,11 +15,6 @@ import java.util.List;
 public class Controller {
     private final PostService postService;
 
-    @GetMapping("/")
-    public ModelAndView home() {
-        return new ModelAndView("index");
-    }
-
     @PostMapping("/api/postwrite")
     public PostResponseDto createPost(@RequestBody PostRequestDto requestDto) {
         return postService.createPost(requestDto);
